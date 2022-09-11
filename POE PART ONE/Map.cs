@@ -8,5 +8,10 @@ namespace POE_PART_ONE
 {
     internal class Map
     {
+        public Map(int maxWidth, int minWidth, int maxHeight, int minHeight, int numEnemies) //constructor
+        {
+
+        }
     }
 }
+
