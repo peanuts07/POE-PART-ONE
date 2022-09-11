@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace POE_PART_ONE
 {
-    internal class Character
+    abstract class Character : Tile 
     {
+        public Character(char x, char y) : base(x, y)  //a constructor that recieves x and y positions
+        {
+            //NEEDS SYMBOL
+        }
     }
 }
