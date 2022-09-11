@@ -6,6 +6,9 @@ namespace POE_PART_ONE
         {
             InitializeComponent();
         }
+        public string value = " ";
+        public int number = 10;
+        Map obj = new Map();
 
         private void Form1_Load(object sender, EventArgs e)
         {
