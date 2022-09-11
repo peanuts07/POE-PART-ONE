@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace POE_PART_ONE
 {
+    protected Random rnd = new Random();
+    protected int num = 1;
+    // why are the protected members not being inherited ????????
     abstract class Enemy : Character
     {
         public Random rnd = new Random();
@@ -18,7 +21,10 @@ namespace POE_PART_ONE
 
         public Enemy(int damage, int startingHP, int maxHP, char x, char y) : base(x, y)  //x and y positions)
         {
-
+            this.maxHP = 0;
+            this.damage = 0;
+            this.x = x;
+            this.y = y;
         }
     }
 }
