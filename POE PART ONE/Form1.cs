@@ -29,6 +29,11 @@ namespace POE_PART_ONE
 
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
 
         private void btnUp_Click(object sender, EventArgs e)
         {
