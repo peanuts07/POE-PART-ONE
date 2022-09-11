@@ -34,6 +34,26 @@ namespace POE_PART_ONE
             Close();
         }
 
+        public void AddItems()
+        {
+            //cmbAttack.Items.Add("e1");
+            //cmbAttack.Items.Add("e1");
+        }
+
+        public void PrintMap()
+        {
+            for (int row = 0; row < 10; row++)
+            {
+                //For all columns
+                for (int col = 0; col < 10; col++)
+                {
+                    lblNewMap.Text += Map.map[row, col];
+                    //Make that position the same as the tile passed in
+                }
+                lblNewMap.Text += Environment.NewLine;
+            }
+        }
+
 
         private void btnUp_Click(object sender, EventArgs e)
         {
