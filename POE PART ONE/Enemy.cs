@@ -26,5 +26,14 @@ namespace POE_PART_ONE
             this.x = x;
             this.y = y;
         }
+
+        public override string ToString()
+        {
+            damage.ToString();
+            x.ToString();
+            y.ToString();
+            //This is defined in the Character subclasses and overrides the traditional Object ToString() method.
+            return " Enemy at: " + x + y + damage;
+        }
     }
 }
