@@ -12,6 +12,20 @@ namespace POE_PART_ONE
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            AddItems();
+            Map.FillMap();
+            PrintMap();
+            SwampCreature swampCreature = new SwampCreature(1, 1, 1, 'x', 'y');
+
+            lblEnemyStats.Text = swampCreature.ToString();
+            Hero hero = new Hero('x', 'y');
+
+            lblHeroStats.Text = hero.ToString();
+
+            lblEnemyStats.Text = swampCreature.ToString();
+            //code to fill the map
+
+            //get the enmy stats to go here ... override of to string isnt working
 
         }
 
