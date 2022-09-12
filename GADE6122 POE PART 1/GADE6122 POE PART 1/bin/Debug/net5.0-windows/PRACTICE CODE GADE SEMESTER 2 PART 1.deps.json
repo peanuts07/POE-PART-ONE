@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PRACTICE CODE GADE SEMESTER 2 PART 1/1.0.0": {
+        "runtime": {
+          "PRACTICE CODE GADE SEMESTER 2 PART 1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRACTICE CODE GADE SEMESTER 2 PART 1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
